@@ -1,7 +1,6 @@
 <template>
   <div class="WhiteOneArticle-container" data-aos="zoom-in" data-aos-duration="1200">
-    <h1>Die 5 beliebtesten Strategien für Spiele Entwickler</h1>
-    <div class="grid">
+    <h1 id="fiveStrategies">Die 5 beliebtesten Strategien für Spiele Entwickler</h1>
       <div class="row row-cols-1 row-cols-lg-2">
         <div class="col mb-4">
           <div class="card">
@@ -62,7 +61,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </template>
 

@@ -4,8 +4,8 @@
       <Navigation></Navigation>
       <Ziel></Ziel>
     </div>
+    <CurrentSituation></CurrentSituation>
     <div class="content">
-      <CurrentSituation></CurrentSituation>
       <!-- <WhiteTwoArticle></WhiteTwoArticle> -->
       <WhiteOneArticle></WhiteOneArticle>
     </div>
@@ -37,6 +37,7 @@ export default {
 
 <style lang="scss">
 body {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   font-family: "Avenir", Helvetica, Arial, sans-serif;

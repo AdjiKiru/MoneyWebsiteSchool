@@ -6,7 +6,8 @@
     font-weight: bold;
     margin-bottom: 0px;
     text-align: center;
-  }
-  .grid {
+    @media screen and (min-width: 320px) and (max-width: 999px) {
+      font-size: 30px;
+    }
   }
 }
