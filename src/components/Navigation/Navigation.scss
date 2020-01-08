@@ -1,0 +1,14 @@
+.navigation-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  header {
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+
+    nav {
+      color: white;
+    }
+  }
+}
