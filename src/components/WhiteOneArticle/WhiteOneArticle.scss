@@ -1,4 +1,47 @@
 .WhiteOneArticle-container {
+  color: #fff;
+  background-color: #222222;
+  .content {
+    padding: 30px 160px 0px 160px;
+    .row {
+      .col {
+        .card {
+          background-color: transparent !important;
+          .card-body {
+            background-color: #222222;
+            .card-title {
+              color: #fff;
+            }
+            .card-text {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    .content {
+      padding: 15px 80px 0px 80px;
+    }
+  }
+  @media screen and (max-width: 1350px) {
+    .content {
+      padding: 15px 40px 0px 40px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .content {
+      padding: 15px 10px 0px 10px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .content {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
   h1 {
     margin-top: 5px;
     padding-bottom: 20px;

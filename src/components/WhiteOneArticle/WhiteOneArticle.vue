@@ -1,9 +1,10 @@
 <template>
-  <div class="WhiteOneArticle-container" data-aos="zoom-in" data-aos-duration="1200">
-    <h1 id="fiveStrategies">Die 5 beliebtesten Strategien für Spiele Entwickler</h1>
+  <div class="WhiteOneArticle-container" id="fiveStrategies">
+    <div class="content">
+      <h1>Die 5 beliebtesten Strategien für Spiele Entwickler</h1>
       <div class="row row-cols-1 row-cols-lg-2">
         <div class="col mb-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="2250">
             <img src="../../assets/FIFA20.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Verschiedene Versionen von Spielen</h5>
@@ -16,7 +17,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="2250">
             <img src="../../assets/GTA.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Werbung auf Websites oder im Spiel</h5>
@@ -27,7 +28,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="2250">
             <img src="../../assets/SeasonPass.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">In-Game Käufe</h5>
@@ -39,7 +40,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="2250">
             <img src="../../assets/R6S.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Erst kostenlos, dann nicht mehr</h5>
@@ -50,7 +51,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card">
+          <div class="card" data-aos="zoom-in" data-aos-duration="2250">
             <img src="../../assets/AngryBirds.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Werbeartikel</h5>
@@ -61,6 +62,7 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
 </template>
 

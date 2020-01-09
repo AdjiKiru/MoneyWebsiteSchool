@@ -5,10 +5,7 @@
       <Ziel></Ziel>
     </div>
     <CurrentSituation></CurrentSituation>
-    <div class="content">
-      <!-- <WhiteTwoArticle></WhiteTwoArticle> -->
-      <WhiteOneArticle></WhiteOneArticle>
-    </div>
+    <WhiteOneArticle></WhiteOneArticle>
     <div class="nav">
       <BlackOneArticle></BlackOneArticle>
     </div>

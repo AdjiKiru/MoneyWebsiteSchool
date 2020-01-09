@@ -15,12 +15,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#frueher" v-smooth-scroll="{ duration: 1000}">
+          <a class="nav-item nav-link" href="#frueher" v-smooth-scroll="{ duration: 1000}">
             Monetarisierung früher
-            <span class="sr-only">(current)</span>
           </a>
           <a class="nav-item nav-link" href="#heute" v-smooth-scroll="{ duration: 1000}">Monetarisierung heute</a>
-          <a class="nav-item nav-link" href="#fiveStrategies" v-smooth-scroll="{ duration: 1000}">Die 5 beliebtesten Strategien für Spiele Entwickler</a>
+          <a class="nav-item nav-link" href="#fiveStrategies" v-smooth-scroll="{ duration: 2000, offset: -50}">Die 5 beliebtesten Strategien für Spiele Entwickler</a>
         </div>
       </div>
     </nav>

@@ -1,6 +1,6 @@
 <template>
   <div class="BlackOneArticle-container" id="erste">
-    <div class="text">
+    <!-- <div class="text">
       <h1>Monetarisierung von Videospielen: Früher vs Heute</h1>
       <p>
         Te so nimmer vielen es ja kochen worden hutete groben. Feinsten wei ihm
@@ -18,9 +18,38 @@
     </div>
     <div class="pictures">
       <img src="../../assets/Bild4.jpg" data-aos="zoom-in" data-aos-duration="1200" />
+    </div>-->
+    <div class="container">
+      <div class="slider">
+        <div class="slide slide1">
+          <div class="caption">
+            <h2>Slide1</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="caption">
+            <h2>Slide2</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+          </div>
+        </div>
+        <div class="slide slide3">
+          <div class="caption">
+            <h2>Slide3</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+          </div>
+        </div>
+        <div class="slide slide4">
+          <div class="caption">
+            <h2>Slide4</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
-<script src="./BlackOneArticle.js"></script>
 <style lang="scss" src="./BlackOneArticle.scss" scoped></style>
+<script src="./BlackOneArticle.js"></script>
+
