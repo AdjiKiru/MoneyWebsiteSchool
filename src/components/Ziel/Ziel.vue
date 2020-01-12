@@ -1,5 +1,5 @@
 <template>
-  <div class="Ziel-container">
+  <div class="Ziel-container" id="target">
     <div class="text">
       <h1 data-aos="zoom-out" data-aos-duration="1200">Was ist das Ziel dieser Webseite?</h1>
       <p data-aos="zoom-out" data-aos-duration="1500">

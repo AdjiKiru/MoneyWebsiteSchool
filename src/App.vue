@@ -9,6 +9,10 @@
     <div class="nav">
       <BlackOneArticle></BlackOneArticle>
     </div>
+    <Opinion></Opinion>
+    <div class="nav">
+      <WhiteTwoArticle></WhiteTwoArticle>
+    </div>
   </div>
 </template>
 
@@ -17,17 +21,19 @@ import Navigation from "../src/components/Navigation/Navigation.vue";
 import Ziel from "../src/components/Ziel/Ziel.vue";
 import WhiteOneArticle from "../src/components/WhiteOneArticle/WhiteOneArticle.vue";
 import CurrentSituation from "../src/components/CurrentSituation/CurrentSituation.vue";
-// import WhiteTwoArticle from "../src/components/WhiteTwoArticle/WhiteTwoArticle.vue";
+import WhiteTwoArticle from "../src/components/WhiteTwoArticle/WhiteTwoArticle.vue";
 import BlackOneArticle from "../src/components/BlackOneArticle/BlackOneArticle.vue";
+import Opinion from "../src/components/Opinion/Opinion.vue";
 export default {
   name: "app",
   components: {
     Ziel,
     Navigation,
     WhiteOneArticle,
-    // WhiteTwoArticle,
+    WhiteTwoArticle,
     BlackOneArticle,
-    CurrentSituation
+    CurrentSituation,
+    Opinion
   }
 };
 </script>

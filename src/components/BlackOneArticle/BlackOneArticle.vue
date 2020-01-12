@@ -1,51 +1,41 @@
 <template>
-  <div class="BlackOneArticle-container" id="erste">
-    <!-- <div class="text">
-      <h1>Monetarisierung von Videospielen: Früher vs Heute</h1>
-      <p>
-        Te so nimmer vielen es ja kochen worden hutete groben. Feinsten wei ihm
-        freundes gedanken sprachen gekommen getrennt. So zaun fiel se paar dann
-        ihre pa rock. Endlich in steilen nustern spatzen se regnete ja mi. Ganz
-        neue satz wahr ins las noch gast. Sog kartoffeln sauberlich knabenhaft
-        betrachtet las. Kriegen bessern dichten ob taghell ja. Wort es sohn haus
-        hast da furs wo er. Te so nimmer vielen es ja kochen worden hutete groben.
-        Feinsten wei ihm freundes gedanken sprachen gekommen getrennt. So zaun
-        fiel se paar dann ihre pa rock. Endlich in steilen nustern spatzen se
-        regnete ja mi. Ganz neue satz wahr ins las noch gast. Sog kartoffeln
-        sauberlich knabenhaft betrachtet las. Kriegen bessern dichten ob taghell
-        ja. Wort es sohn haus hast da furs wo er.
-      </p>
-    </div>
-    <div class="pictures">
-      <img src="../../assets/Bild4.jpg" data-aos="zoom-in" data-aos-duration="1200" />
-    </div>-->
-    <div class="container">
-      <div class="slider">
-        <div class="slide slide1">
-          <div class="caption">
-            <h2>Slide1</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
-          </div>
+  <div class="BlackOneArticle-container" id="top3">
+    <h1>Die Top 3 Entwickler nach Umsatz</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../../assets/Sony Kopie.jpg" class="d-block w-100" alt="..." />
         </div>
-        <div class="slide slide2">
-          <div class="caption">
-            <h2>Slide2</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
-          </div>
+        <div class="carousel-item">
+          <img src="../../assets/Tencent.jpg" class="d-block w-100" alt="..." />
         </div>
-        <div class="slide slide3">
-          <div class="caption">
-            <h2>Slide3</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
-          </div>
-        </div>
-        <div class="slide slide4">
-          <div class="caption">
-            <h2>Slide4</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
-          </div>
+        <div class="carousel-item">
+          <img src="../../assets/MIcrosoft Kopie.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Zurück</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleCaptions"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Weiter</span>
+      </a>
     </div>
   </div>
 </template>

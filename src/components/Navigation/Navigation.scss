@@ -3,13 +3,16 @@
   overflow: hidden;
   position: relative;
   z-index: 9999;
-  header {
-    z-index: 10;
-    width: 100%;
-    position: fixed;
+  position: fixed;
 
-    nav {
-      color: white;
+  .navbar {
+    background-color: #1f1f1f !important;
+    .navbar-brand {
+      .logo {
+        width: 50px;
+        height: auto;
+        cursor: pointer;
+      }
     }
   }
 }

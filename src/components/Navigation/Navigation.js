@@ -1,5 +1,5 @@
 export default {
-  name: "Navigation",
+  name: 'Navigation',
   data: () => {
     return {
       showNav: false
